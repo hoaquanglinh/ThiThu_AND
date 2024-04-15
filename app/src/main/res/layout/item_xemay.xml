@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/tvanh"
+        android:layout_width="150dp"
+        android:layout_height="130dp" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ten san pham"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvmau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="mau sac"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvgia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Gia"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvmota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="mo ta"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnUpdate"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@id/btnDelete"
+            android:background="@drawable/baseline_edit_24" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDelete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/baseline_delete_24" />
+
+    </LinearLayout>
+</LinearLayout>
